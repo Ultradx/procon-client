@@ -1,0 +1,142 @@
+.updatePairContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.update-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191B1F;
+    width: 56rem;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.update-inner-container label {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 0.75rem;
+}
+
+.input-container {
+    background-color: #20242A;
+    margin: 0.75rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.update-input {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.update-button {
+    background-color: whitesmoke;
+    font-weight: 600;
+    cursor: pointer;
+    border-width: 1px;
+    margin-top: 1.5rem;
+    margin-left: 0.75rem;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    border-color: whitesmoke;
+}
+
+.update-button:hover {
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.answer-label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: whitesmoke;
+}
+
+.get-pairs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191B1F;
+    border-radius: 4rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.get-pairs h3 {
+    padding: 1.25rem;
+}
+
+.get-pairs button {
+    padding: 0.75rem;
+    border-radius: 2rem;
+    background-color: #2172E5;
+    font-weight: 600;
+    cursor: pointer;
+    border-color: #2172E5;
+}
+
+.get-pairs button:hover {
+    background-color: #4785db;
+}
+
+.scroll-bg {
+    /* background-color: rebeccapurple; */
+    border: 2px solid black;
+    border-radius: 3rem;
+    height: 25rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 1rem;
+}
+.scroll-bg::-webkit-scrollbar {
+    display: none;
+}
+
+.disabled {
+    color: rgb(155, 152, 152);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .updatePairContainer {
+        margin-top: 0rem;
+    }
+
+    .update-container {
+        flex-direction: column;
+        width: 80%;
+        padding: 2rem;
+        /* background-color: rebeccapurple; */
+    }
+
+    .update-inner-container {
+        width: 80%;
+    }
+
+    .update-button {
+        width: 80%;
+    }
+
+    .scroll-bg {
+        width: 80%;
+    }
+
+
+
+}

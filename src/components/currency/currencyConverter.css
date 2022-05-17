@@ -1,0 +1,135 @@
+.currencyConverter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.content {
+    background-color: #191B1F;
+    width: 56rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.formHeader {
+    font-weight: 600;
+    font-size: 1.65rem;
+    line-height: 1.75rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.transferPropContainerOut {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+    grid-template-areas: ". . .";
+}
+
+.transferPropContainerIn label {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.transferPropContainer {
+    background-color: #20242A;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.transferPropInput {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.selectPropInputOption {
+    background: white;
+    color: black;
+}
+
+.selectPropInput {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.currencySelector {
+    display: flex;
+    width: 25%;
+}
+
+
+.confirmButton {
+    background-color: #2172E5;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: #2172E5;
+
+}
+
+.confirmButton:hover {
+    border-color: #234169;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .currencyConverter {
+        margin-top: 2rem;
+
+    }
+
+    .content {
+        /* background-color: #191B1F; */
+        width: 80%;
+
+    }
+
+    .transferPropContainerOut {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .transferPropContainerIn {
+        width: 70%;
+    }
+}

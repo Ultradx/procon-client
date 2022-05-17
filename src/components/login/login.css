@@ -1,0 +1,78 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 39, 61);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 2rem;
+}
+
+.container h1 {
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.login-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+.login-fields input {
+    width: 80%;
+    /* overflow: hidden; */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    background-color: #ccc;
+    color: rgb(61, 61, 61);
+    border-radius: 0.75rem;
+    outline: none;
+}
+
+.login-fields button {
+    width: 90%;
+    margin-bottom: 0.7rem;
+    padding: 1rem;
+    border: none;
+    background-color: rgba(22, 18, 27, 0.842);
+    color: white;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.login-fields button:hover {
+    background-color: rgba(22, 18, 27, 0.788);
+}
+
+.login-fields a {
+    color: rgb(50, 39, 61);;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-fields a:hover {
+    color: rgb(174, 147, 177);
+}
+
+.back-button {
+    color: gray;
+    font-size: 2rem;
+    margin-left: 100%;
+    cursor: pointer;
+}
